@@ -103,7 +103,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 150px;
+    width: 350px;
 }
 
 .principal {
@@ -116,17 +116,15 @@ p {
  
     .principal2 {
         flex-direction: row;    
-
-    };
+        display: flex;  
+    }
 
 
     .principal-3{
+        display: flex;
         flex-direction: column;
-    };
-
-    .img-logo{
-        width: 300px;
-        justify-content: flex-start;
+        gap: 3rem;  
     }
+
 
 }
